@@ -1,0 +1,55 @@
+#gameTable {border-collapse: collapse}
+
+.cellTd {
+    width: 60px;
+    height: 60px;
+    border: thin solid gray;
+    position: relative;
+}
+.cellTd:focus {
+    background-color: lightyellow;
+}
+
+.bigNumber {
+    position: absolute;
+    font-size: 20px;
+    width: 100%;
+    top: 20px;
+}
+.centerNumbers {
+    position: absolute;
+    font-size: 12px;
+    left: 5px;
+    top: 0;
+    text-align: center;
+    font-weight: 600;
+    max-width: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    line-height: 12px;
+}
+.snyderNumbers {
+    position: absolute;
+    font-size: 12px;
+    top: -13px;
+    left: 5px;
+    font-weight: 600;
+    flex-wrap: wrap;
+    display: flex;
+    line-height: 45px;
+}
+.t {
+    border-top-width: 3px;
+}
+.r {
+    border-right-width: 3px;
+}
+.l {
+    border-left-width: 3px;
+}
+.b {
+    border-bottom-width: 3px;
+}
